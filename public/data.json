@@ -1,20 +1,20 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "picture": "https://i.ibb.co/7vTN3ZD/Health.png",
     "title": "Medical Supplies for Children",
-    "category": "Health",
-    "category_bg": "#ff6b6b",
+    "item": "Health",
+    "category_bg": "#0052ff33",
     "card_bg": "#f0f0f0",
     "text_button_bg": "#4caf50",
     "description": "Donate to provide essential medical supplies for underprivileged children in need of healthcare.",
     "price": 50
   },
   {
-    "id": 2,
+    "id": "2",
     "picture": "https://i.ibb.co/1z5qhMm/Education.png",
     "title": "School Supplies for Orphans",
-    "category": "Education",
+    "item": "Education",
     "category_bg": "#ffcc29",
     "card_bg": "#f0f0f0",
     "text_button_bg": "#4caf50",
@@ -22,10 +22,10 @@
     "price": 25
   },
   {
-    "id": 3,
+    "id": "3",
     "picture": "https://i.ibb.co/VMwCpK8/Clothing.png",
     "title": "Warm Winter Clothes Drive",
-    "category": "Clothing",
+    "item": "Clothing",
     "category_bg": "#6fc3df",
     "card_bg": "#f0f0f0",
     "text_button_bg": "#4caf50",
@@ -33,10 +33,10 @@
     "price": 30
   },
   {
-    "id": 4,
+    "id": "4",
     "picture": "https://i.ibb.co/d5gmFYG/Food.png",
     "title": "Emergency Food Aid",
-    "category": "Food",
+    "item": "Food",
     "category_bg": "#ffabab",
     "card_bg": "#f0f0f0",
     "text_button_bg": "#4caf50",
@@ -44,10 +44,10 @@
     "price": 20
   },
   {
-    "id": 5,
+    "id": "5",
     "picture": "https://i.ibb.co/09YXCNm/heath2.jpg",
     "title": "Nutritional Supplements for Elderly",
-    "category": "Health",
+    "item": "Health",
     "category_bg": "#ff6b6b",
     "card_bg": "#f0f0f0",
     "text_button_bg": "#4caf50",
@@ -55,10 +55,10 @@
     "price": 40
   },
   {
-    "id": 6,
+    "id": "6",
     "picture": "https://i.ibb.co/GCq1RF5/edu2.jpg",
     "title": "Scholarships for Underprivileged Students",
-    "category": "Education",
+    "item": "Education",
     "category_bg": "#ffcc29",
     "card_bg": "#f0f0f0",
     "text_button_bg": "#4caf50",
@@ -66,10 +66,10 @@
     "price": 35
   },
   {
-    "id": 7,
+    "id": "7",
     "picture": "https://i.ibb.co/C9MMnSM/clth2.jpg",
     "title": "Winter Coats for Homeless Individuals",
-    "category": "Clothing",
+    "item": "Clothing",
     "category_bg": "#6fc3df",
     "card_bg": "#f0f0f0",
     "text_button_bg": "#4caf50",
@@ -77,10 +77,10 @@
     "price": 45
   },
   {
-    "id": 8,
+    "id": "8",
     "picture": "https://i.ibb.co/vBntZxQ/food2.jpg",
     "title": "Meals for Children in Need",
-    "category": "Food",
+    "item": "Food",
     "category_bg": "#ffabab",
     "card_bg": "#f0f0f0",
     "text_button_bg": "#4caf50",
@@ -88,10 +88,10 @@
     "price": 15
   },
   {
-    "id": 9,
+    "id": "9",
     "picture": "https://i.ibb.co/GtBmGxK/health3.jpg",
     "title": "Vaccination Campaign for Remote Areas",
-    "category": "Health",
+    "item": "Health",
     "category_bg": "#ff6b6b",
     "card_bg": "#f0f0f0",
     "text_button_bg": "#4caf50",
@@ -99,10 +99,10 @@
     "price": 60
   },
   {
-    "id": 10,
+    "id": "10",
     "picture": "https://i.ibb.co/ggVyVBh/edu3.jpg",
     "title": "Educational Materials for Rural Schools",
-    "category": "Education",
+    "item": "Education",
     "category_bg": "#ffcc29",
     "card_bg": "#f0f0f0",
     "text_button_bg": "#4caf50",
@@ -110,10 +110,10 @@
     "price": 30
   },
   {
-    "id": 11,
+    "id": "11",
     "picture": "https://i.ibb.co/Wz7ZhZH/clth3.jpg",
     "title": "Hygiene Kits for Shelter Residents",
-    "category": "Clothing",
+    "item": "Clothing",
     "category_bg": "#6fc3df",
     "card_bg": "#f0f0f0",
     "text_button_bg": "#4caf50",
@@ -121,10 +121,10 @@
     "price": 20
   },
   {
-    "id": 12,
+    "id": "12",
     "picture": "https://i.ibb.co/30Xphvr/food3.jpg",
     "title": "Meals for Elderly Community",
-    "category": "Food",
+    "item": "Food",
     "category_bg": "#ffabab",
     "card_bg": "#f0f0f0",
     "text_button_bg": "#4caf50",
