@@ -5,6 +5,7 @@ const Donations = () => {
 
     const [donations,setDonations] = useState([]);
     const [notFound, setNotFound] = useState(false);
+    const [isShow, setIsShow] = useState(false);
 
 
     useEffect(()=>{
@@ -18,17 +19,17 @@ const Donations = () => {
     },[]);
 
 
-    const handleRemove = () => {
-        localStorage.clear();
-        setDonations([]);
-        setNotFound("No Data Found");
-      };
+    // const handleRemove = () => {
+    //     localStorage.clear();
+    //     setDonations([]);
+    //     setNotFound("No Data Found");
+    //   };
 
     return (
     <div>{notFound?<p>{notFound}</p>:
     
     <div>
-        {donations.length > 0 && (
+        {/* {donations.length > 0 && (
             <div>
                 <button
               onClick={handleRemove}
@@ -37,10 +38,22 @@ const Donations = () => {
               Deleted All donations
             </button>
             </div>
-          )}
+          )} */}
         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
-            {donations.map(category=> <DonatedCard key={category} category={category}></DonatedCard>)}
+            {isShow ? donations.map((category)=> (
+            <DonatedCard key={category} category={category}></DonatedCard>)):
+            donations.slice(0,4).map ((category)=>(
+            <DonatedCard key={category} category={category}></DonatedCard>
+            ))
+
+            }
         </div>
+
+        {
+            donations.length > 4 && <button onClick={()=>setIsShow(!isShow)} className="px-5 bg-green-500 block mx-auto">
+                {isShow ? "":"See More"}
+            </button>
+        }
         
         
     </div>
