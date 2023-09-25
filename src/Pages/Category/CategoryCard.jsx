@@ -19,11 +19,11 @@ const CategoryCard = ({ category }) => {
     
     const donationsArr = [];
 
-    const donationItems = JSON.parse(localStorage.getItem('donations'));
+    const donationItems = JSON.parse(localStorage.getItem("donations"));
 
     if (!donationItems){
         donationsArr.push(category);
-        localStorage.setItem('donations',JSON.stringify(donationsArr));
+        localStorage.setItem("donations",JSON.stringify(donationsArr));
         Swal.fire(
             'Good job!',
             'You clicked the button!',

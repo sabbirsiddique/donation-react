@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import DonatedCard from "./DonatedCard";
 
 const Donations = () => {
 
@@ -7,7 +8,7 @@ const Donations = () => {
 
 
     useEffect(()=>{
-        const donationItems = JSON.parse(localStorage.getItem('donations'));
+        const donationItems = JSON.parse(localStorage.getItem("donations"));
 
         if(donationItems){
             setDonations(donationItems);
@@ -15,23 +16,39 @@ const Donations = () => {
             setNotFound("No donate yet");
         }
     },[]);
-    console.log(donations)
 
-    return <div>{notFound?<p>nothing here</p>
-    :
+
+    const handleRemove = () => {
+        localStorage.clear();
+        setDonations([]);
+        setNotFound("No Data Found");
+      };
+
+    return (
+    <div>{notFound?<p>{notFound}</p>:
+    
     <div>
-        
-        <div>
-            {}
+        {donations.length > 0 && (
+            <div>
+                <button
+              onClick={handleRemove}
+              className="px-5 bg-green-200 block mx-auto"
+            >
+              Deleted All donations
+            </button>
+            </div>
+          )}
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
+            {donations.map(category=> <DonatedCard key={category} category={category}></DonatedCard>)}
         </div>
         
         
     </div>
     }
     
-    </div>;
+    </div>
         
-    
+    );
 };
 
 export default Donations;
