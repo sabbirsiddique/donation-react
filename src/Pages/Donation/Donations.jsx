@@ -47,6 +47,7 @@ const Donations = () => {
             ))
 
             }
+            <p>don:{donations.length}</p>
         </div>
 
         {

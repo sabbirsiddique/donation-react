@@ -3,10 +3,6 @@
 import { Link } from "react-router-dom";
 
 const CategoriesCard = ({ category }) => {
-
-
- 
-
   const {
     id,
     picture,
@@ -20,32 +16,34 @@ const CategoriesCard = ({ category }) => {
   } = category || {};
 
   const itemStyle = {
-    backgroundColor: category_bg, // Use category_bg as the background color
+    backgroundColor: category_bg,
   };
+  const cardStyle = {
+    backgroundColor: card_bg,
+  };
+
 
   return (
     <Link to={`/categories/${id}`}>
-    <div className="relative flex w-[312px] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-    <div className="relative mx-4 mt-4 h-[194px] overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
-      <img
-        src={picture}
-        className="h-full w-full object-cover"
-      />
-    </div>
-    <div className="p-6">
-      <div className="mb-2 flex items-center justify-between">
-        <p className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased"style={itemStyle}>
-          {item}
-        </p>
-
+      <div className="relative flex w-[312px] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md" style={cardStyle}>
+        <div className="relative mx-4 mt-4 h-[194px] overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
+          <img src={picture} className="h-full w-full object-cover" />
+        </div>
+        <div className="p-6">
+          <div className="mb-2 flex items-center justify-between">
+            <p
+              className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased"
+              style={itemStyle}
+            >
+              {item}
+            </p>
+          </div>
+          <p className="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75">
+            {title}
+          </p>
+        </div>
       </div>
-      <p className="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75">
-       {title}
-      </p>
-    </div>
-  </div>
     </Link>
-    
   );
 };
 
