@@ -51,9 +51,7 @@ const Statistic = () => {
     );
   };
   return (
-    <div>
-      <p>Total Donation ={totalItem.length}</p>
-      <p>Your Donation ={donations.length}</p>
+    <div className="max-w-screen-2xl mx-auto mt-12">
 
       <div className="flex justify-center items-center">
         <PieChart width={400} height={400}>

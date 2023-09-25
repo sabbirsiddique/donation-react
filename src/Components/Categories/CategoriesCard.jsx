@@ -10,9 +10,8 @@ const CategoriesCard = ({ category }) => {
     item,
     category_bg,
     card_bg,
-    text_button_bg,
-    description,
-    price,
+    item_text_color,
+    title_text_color,
   } = category || {};
 
   const itemStyle = {
@@ -21,24 +20,30 @@ const CategoriesCard = ({ category }) => {
   const cardStyle = {
     backgroundColor: card_bg,
   };
+  const itemTextStyle = {
+    color: item_text_color,
+  };
+  const titleTextStyle = {
+    color: title_text_color,
+  };
 
 
   return (
     <Link to={`/categories/${id}`}>
-      <div className="relative flex w-[312px] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md" style={cardStyle}>
-        <div className="relative mx-4 mt-4 h-[194px] overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
+      <div className="w-[312px] rounded-xl shadow-md" style={cardStyle}>
+        <div className="h-[194px] rounded-xl">
           <img src={picture} className="h-full w-full object-cover" />
         </div>
-        <div className="p-6">
+        <div className="p-3">
           <div className="mb-2 flex items-center justify-between">
             <p
-              className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased"
-              style={itemStyle}
+              className="px-2 py-1 rounded-lg text-base font-medium"
+              style={{...itemStyle,...itemTextStyle}}
             >
               {item}
             </p>
           </div>
-          <p className="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75">
+          <p className="text-xl font-semibold" style={titleTextStyle}>
             {title}
           </p>
         </div>

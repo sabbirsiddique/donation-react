@@ -1,65 +1,66 @@
 /* eslint-disable react/prop-types */
 
+const DonatedCard = ({ category }) => {
+  const {
+    picture,
+    title,
+    item,
+    category_bg,
+    card_bg,
+    item_text_color,
+    price,
+  } = category || {};
 
-const DonatedCard = ({category}) => {
-    const {
-        id,
-        picture,
-        title,
-        item,
-        category_bg,
-        card_bg,
-        text_button_bg,
-        description,
-        price,
-      } = category || {};
-    return (
-        <div>
-            <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-  <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
-    <img
-      src={picture}
-      alt="image"
-      className="h-full w-full object-cover"
-    />
-  </div>
-  <div className="p-6">
-    <h6 className="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-pink-500 antialiased">
-      {item}
-    </h6>
-    <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-      {title}
-    </h4>
-    <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
-      {price}
-    </p>
-    <a className="inline-block" href="#">
-      <button
-        className="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-        type="button"
-      >
-        View Details
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="2"
-          stroke="currentColor"
-          aria-hidden="true"
-          className="h-4 w-4"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-          ></path>
-        </svg>
-      </button>
-    </a>
-  </div>
-</div>
+  const itemStyle = {
+    backgroundColor: category_bg,
+  };
+
+  const itemTextStyle = {
+    color: item_text_color,
+  };
+  const itemTextStyleBg = {
+    backgroundColor: item_text_color,
+  };
+
+  const cardStyle = {
+    backgroundColor: card_bg,
+  };
+
+  return (
+    <div>
+      <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-clip-border text-gray-700 shadow-md" style={cardStyle}>
+        <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
+          <img
+            src={picture}
+            alt="image"
+            className="h-full w-full object-cover"
+          />
         </div>
-    );
+        <div className="p-6">
+          <div className="mb-2 flex items-center justify-between">
+          <h6 className="px-2 py-1 rounded-lg text-base font-medium"style={{...itemStyle,...itemTextStyle}}>
+            {item}
+          </h6>
+          </div>
+          
+          <h4 className="mb-2 block text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+            {title}
+          </h4>
+          <p className="mb-8 block text-base font-semibold leading-relaxed text-gray-700 antialiased" style={itemTextStyle}>$ 
+            {price}
+          </p>
+          <a className="inline-block" href="#">
+            <button
+              className="w-[179px] h-[56px] text-white text-lg font-semibold rounded-lg"style={itemTextStyleBg}
+              type="button"
+            >
+              View Details
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default DonatedCard;

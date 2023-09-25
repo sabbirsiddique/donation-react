@@ -2,79 +2,86 @@
   {
     "id": "1",
     "picture": "https://i.ibb.co/7vTN3ZD/Health.png",
-    "title": "Medical Supplies for Children",
+    "title": "Clean water for children",
     "item": "Health",
     "category_bg": "#0052ff33",
     "card_bg": "#0052ff26",
-    "text_button_bg": "#4caf50",
-    "description": "Donate to provide essential medical supplies for underprivileged children in need of healthcare.",
-    "price": 50
+    "item_text_color": "#0052FF",
+    "title_text_color": "#0052FF",
+    "description": "Ensuring clean water for children is crucial for their well-being. Clean water means water that is free from harmful contaminants and pathogens. It is essential for drinking, cooking, and personal hygiene. Access to clean water prevents waterborne diseases, which can be especially harmful to children. Governments and organizations work to provide safe water sources, like wells and treatment plants, to communities. Regular testing and treatment ensure the water remains safe. Clean water contributes to children's health, growth, and the overall quality of life, making it a fundamental right that should be accessible to all.",
+    "price": 90
   },
   {
     "id": "2",
     "picture": "https://i.ibb.co/1z5qhMm/Education.png",
-    "title": "School Supplies for Orphans",
+    "title": "Good education",
     "item": "Education",
     "category_bg": "#ff444a33",
     "card_bg": "#ff444a26",
-    "text_button_bg": "#4caf50",
-    "description": "Support education by donating school supplies to orphaned children striving to learn.",
-    "price": 25
+    "item_text_color": "#FF444A",
+    "title_text_color": "#FF444A",
+    "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+    "price": 200
   },
   {
     "id": "3",
     "picture": "https://i.ibb.co/VMwCpK8/Clothing.png",
-    "title": "Warm Winter Clothes Drive",
+    "title": "Used Clothing Drive",
     "item": "Clothing",
     "category_bg": "#79c23f33",
     "card_bg": "#79c23f26",
-    "text_button_bg": "#4caf50",
-    "description": "Contribute to our clothing drive and help keep those in need warm during the cold winter months.",
-    "price": 30
+    "item_text_color": "#79C23F",
+    "title_text_color": "#79C23F",
+    "description": "A used clothing drive is a charitable initiative aimed at collecting gently worn or unused clothing items from individuals or communities. These collected clothes are typically then distributed to those in need, such as low-income individuals or disaster victims. The process involves organizing drop-off locations, promoting the drive through various means, and coordinating volunteers to sort and distribute the collected items. Used clothing drives help reduce waste, provide clothing for those who cannot afford it, and promote community engagement in giving back to those less fortunate. It's a simple yet impactful way to make a positive difference in people's lives.",
+    "price": 130
   },
   {
     "id": "4",
     "picture": "https://i.ibb.co/d5gmFYG/Food.png",
-    "title": "Emergency Food Aid",
+    "title": "Better Food for Everyone",
     "item": "Food",
     "category_bg": "#f8714733",
     "card_bg": "#f8714726",
-    "text_button_bg": "#4caf50",
-    "description": "Your donation will provide emergency food assistance to families facing hunger crises.",
-    "price": 20
+    "item_text_color": "#F87147",
+    "title_text_color": "#F87147",
+    "description": "Better food for everyone is a collective effort to improve food access, quality, and sustainability. It involves promoting healthier eating habits, supporting local agriculture, reducing food waste, and ensuring affordability. Governments can implement policies that enhance food security, while individuals can make informed dietary choices. Initiatives like community gardens and food banks play a vital role. By prioritizing nutritious, sustainable, and equitable food systems, we can enhance overall health, reduce environmental impact, and address hunger, ultimately working towards a healthier, more equitable world.",
+    "price": 220
   },
   {
     "id": "5",
     "picture": "https://i.ibb.co/09YXCNm/heath2.jpg",
-    "title": "Nutritional Supplements for Elderly",
+    "title": "Nutritional Foods for Elderly",
     "item": "Health",
     "category_bg": "#0052ff33",
     "card_bg": "#0052ff26",
-    "text_button_bg": "#4caf50",
-    "description": "Support the elderly by providing them with essential nutritional supplements.",
-    "price": 40
+    "item_text_color": "#0052FF",
+    "title_text_color": "#0052FF",
+    "description": "Nutritional foods for the elderly are essential for promoting health and well-being in aging populations. These foods should be rich in essential nutrients like vitamins, minerals, and proteins, aiding in maintaining muscle mass, bone health, and cognitive function. Special attention to dietary fiber, calcium, vitamin D, and antioxidants can help prevent common age-related issues. Balanced, easy-to-digest meals tailored to individual needs can improve quality of life, support independence, and reduce the risk of chronic diseases, ensuring a healthier and more fulfilling elderly life.",
+    "price": 140
   },
   {
     "id": "6",
     "picture": "https://i.ibb.co/GCq1RF5/edu2.jpg",
-    "title": "Scholarships for Underprivileged Students",
+    "title": "Scholarships for Students",
     "item": "Education",
     "category_bg": "#ff444a33",
     "card_bg": "#ff444a26",
-    "text_button_bg": "#4caf50",
-    "description": "Help underprivileged students achieve their dreams through scholarship opportunities.",
-    "price": 35
+    "item_text_color": "#FF444A",
+    "title_text_color": "#FF444A",
+    "description": "Scholarships for students offer financial aid to help cover the costs of higher education, including tuition, books, and living expenses. These awards can be based on academic achievements, financial need, or specific criteria like field of study or ethnicity. Scholarships play a crucial role in making education more accessible, reducing the financial burden on students and their families. They encourage academic excellence, promote diversity, and enable individuals to pursue their educational aspirations, ultimately fostering personal and societal growth.",
+    "price": 285
   },
   {
     "id": "7",
     "picture": "https://i.ibb.co/C9MMnSM/clth2.jpg",
-    "title": "Winter Coats for Homeless Individuals",
+    "title": "Winter Coats for Homeless",
     "item": "Clothing",
     "category_bg": "#79c23f33",
     "card_bg": "#79c23f26",
-    "text_button_bg": "#4caf50",
-    "description": "Provide warm winter coats to homeless individuals to keep them safe from the cold.",
-    "price": 45
+    "item_text_color": "#79C23F",
+    "title_text_color": "#79C23F",
+    "description": "Providing winter coats for the homeless is a compassionate initiative to protect vulnerable individuals from the harsh cold. Donated coats, blankets, and warm clothing items help keep them safe and warm during winter months. These efforts are often organized by community groups, charities, or individuals who collect and distribute these essential items to those living on the streets. By addressing a basic need, such initiatives offer comfort, dignity, and potentially life-saving assistance to homeless individuals during challenging weather conditions, showing empathy and support for the most disadvantaged in society.",
+    "price": 145
   },
   {
     "id": "8",
@@ -83,42 +90,46 @@
     "item": "Food",
     "category_bg": "#f8714733",
     "card_bg": "#f8714726",
-    "text_button_bg": "#4caf50",
-    "description": "Your donation will help provide nutritious meals to children facing hunger.",
-    "price": 15
+    "item_text_color": "#F87147",
+    "title_text_color": "#F87147",
+    "description": "Represents a charitable effort aimed at providing nutritious and regular meals to underprivileged or food-insecure children. Such initiatives can take various forms, including school lunch programs, food banks, community kitchens, and nonprofit organizations. These efforts ensure that children have access to essential sustenance, promoting their physical and cognitive development while addressing hunger-related issues. By offering consistent, balanced meals, we support the well-being of vulnerable children and help them thrive, ultimately contributing to a healthier and more equitable society.",
+    "price": 315
   },
   {
     "id": "9",
     "picture": "https://i.ibb.co/GtBmGxK/health3.jpg",
-    "title": "Vaccination Campaign for Remote Areas",
+    "title": "Vaccination for Remote Areas",
     "item": "Health",
-    "category_bg": "#ff6b6b",
+    "category_bg": "#0052ff33",
     "card_bg": "#0052ff33",
-    "text_button_bg": "#4caf50",
-    "description": "Support a vaccination campaign to reach remote areas with life-saving vaccines.",
-    "price": 60
+    "item_text_color": "#0052FF",
+    "title_text_color": "#0052FF",
+    "description": "Vaccination for remote areas is a critical public health initiative aimed at providing access to vaccines for individuals living in isolated or hard-to-reach regions. These efforts involve mobile vaccination clinics, outreach programs, and the use of transportable cold storage to ensure vaccines remain effective. By vaccinating people in remote areas, we help protect them from preventable diseases, strengthen overall community immunity, and bridge healthcare disparities. This initiative contributes to global health equity by extending the benefits of immunization to even the most isolated and underserved populations.",
+    "price": 500
   },
   {
     "id": "10",
     "picture": "https://i.ibb.co/ggVyVBh/edu3.jpg",
-    "title": "Educational Materials for Rural Schools",
+    "title": "Rural Scholl Resources",
     "item": "Education",
     "category_bg": "#ff444a33",
     "card_bg": "#ff444a26",
-    "text_button_bg": "#4caf50",
-    "description": "Donate educational materials to improve learning opportunities in rural schools.",
-    "price": 30
+    "item_text_color": "#FF444A",
+    "title_text_color": "#FF444A",
+    "description": "Rural school resources refers to efforts and investments focused on improving educational facilities, materials, and support in schools located in rural areas. These initiatives aim to bridge the educational gap between rural and urban regions. Resources can include funding for school infrastructure, technology, textbooks, and teacher training. By enhancing these resources, we can provide rural students with a more equitable and quality education, helping them achieve their full potential and ensuring that education is not limited by geographical location. This is essential for fostering economic development and reducing educational disparities in rural communities.",
+    "price": 1000
   },
   {
     "id": "11",
     "picture": "https://i.ibb.co/Wz7ZhZH/clth3.jpg",
-    "title": "Hygiene Kits for Shelter Residents",
+    "title": "Hygiene Kits for Shelter",
     "item": "Clothing",
     "category_bg": "#79c23f33",
     "card_bg": "#79c23f26",
-    "text_button_bg": "#4caf50",
-    "description": "Provide hygiene kits to residents of shelters for better personal care.",
-    "price": 20
+    "item_text_color": "#79C23F",
+    "title_text_color": "#79C23F",
+    "description": "Hygiene kits for shelter represent an essential humanitarian effort aimed at providing individuals in shelters, often including those experiencing homelessness or displaced by disasters, with basic personal hygiene essentials. These kits typically contain items such as soap, toothbrushes, toothpaste, shampoo, sanitary products, and clean towels. These kits help maintain personal cleanliness and dignity, reduce the risk of health issues, and improve overall well-being for those in temporary or unstable living situations. Such initiatives demonstrate care and support for vulnerable individuals during difficult times, promoting both physical and emotional comfort.",
+    "price": 320
   },
   {
     "id": "12",
@@ -127,8 +138,9 @@
     "item": "Food",
     "category_bg": "#f8714733",
     "card_bg": "#f8714726",
-    "text_button_bg": "#4caf50",
-    "description": "Contribute to providing meals and companionship to the elderly in your community.",
-    "price": 25
+    "item_text_color": "#F87147",
+    "title_text_color": "#F87147",
+    "description": "Meals for the elderly community is a community-based program that provides nutritious meals to senior citizens who may face challenges in accessing or preparing their own food. These meal services can be delivered to their homes, offered at community centers, or provided through senior care facilities. By ensuring that elderly individuals receive balanced and regular meals, we support their health and well-being, reduce the risk of malnutrition, and combat social isolation. These programs play a vital role in enhancing the quality of life and promoting the independence of elderly members within the community.",
+    "price": 400
   }
 ]

@@ -9,8 +9,10 @@ const Home = () => {
 
     return (
         <div>
+            <div className="">
             <Banner></Banner>
-            <Categories categories={categories}></Categories>
+            </div>
+            <div className="max-w-screen-2xl mx-auto mt-24"><Categories categories={categories}></Categories></div>
         </div>
     );
 };

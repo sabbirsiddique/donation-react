@@ -19,17 +19,17 @@ const Donations = () => {
     },[]);
 
 
-    // const handleRemove = () => {
-    //     localStorage.clear();
-    //     setDonations([]);
-    //     setNotFound("No Data Found");
-    //   };
+    const handleRemove = () => {
+        localStorage.clear();
+        setDonations([]);
+        setNotFound("No Data Found");
+      };
 
     return (
     <div>{notFound?<p>{notFound}</p>:
     
     <div>
-        {/* {donations.length > 0 && (
+        {donations.length > 0 && (
             <div>
                 <button
               onClick={handleRemove}
@@ -38,8 +38,8 @@ const Donations = () => {
               Deleted All donations
             </button>
             </div>
-          )} */}
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
+          )}
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 max-w-screen-2xl mx-auto mt-12 mb-10">
             {isShow ? donations.map((category)=> (
             <DonatedCard key={category} category={category}></DonatedCard>)):
             donations.slice(0,4).map ((category)=>(
@@ -47,7 +47,6 @@ const Donations = () => {
             ))
 
             }
-            <p>don:{donations.length}</p>
         </div>
 
         {
