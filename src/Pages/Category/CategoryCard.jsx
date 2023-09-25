@@ -26,7 +26,7 @@ const CategoryCard = ({ category }) => {
         localStorage.setItem("donations",JSON.stringify(donationsArr));
         Swal.fire(
             'Good job!',
-            'You clicked the button!',
+            'Donation Successful...!',
             'success'
           )
     }else{
@@ -37,9 +37,9 @@ const CategoryCard = ({ category }) => {
         donationsArr.push(...donationItems,category);
         localStorage.setItem('donations',JSON.stringify(donationsArr));
         Swal.fire(
-            'Good job!',
-            'You clicked the button!',
-            'success'
+          'Good job!',
+          'Donation Successful...!',
+          'success'
           )
 
     }

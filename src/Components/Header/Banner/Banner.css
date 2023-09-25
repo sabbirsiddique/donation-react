@@ -1,11 +1,30 @@
-.bg-img{
-    background-image: url('https://i.ibb.co/tPz3tK9/Rectangle-4281.png'),linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9));
-    height:600px;
-    background-blend-mode: overlay;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    display: flex;
-    align-items: center;
+/* .bg-img {
+  background-image: url("https://i.ibb.co/tPz3tK9/Rectangle-4281.png"),
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+  height: 600px;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+} */
+
+.bg-img {
+  background-image: url("https://i.ibb.co/tPz3tK9/Rectangle-4281.png"),
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+  height: 600px;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 640px) {
+  .bg-img {
+    width: 312px;
+  }
 }
