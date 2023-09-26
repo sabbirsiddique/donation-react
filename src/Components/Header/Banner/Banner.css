@@ -13,5 +13,6 @@
 @media screen and (max-width: 640px) {
   .bg-img {
     width: 312px;
+    margin:0px, auto;
   }
 }

@@ -32,6 +32,7 @@ const CategoryCard = ({ category }) => {
         <img src={picture} className="w-full h-[70vh] object-fit" />
         <div className="absolute bottom-0 w-full h-1/5 bg-black opacity-50"></div>
         <div className="absolute bottom-0 w-full h-1/5 py-8 pl-9">
+          
           <button
             onClick={handleDonations}
             className="w-[179px] h-[56px] text-white rounded-lg"
