@@ -48,28 +48,16 @@
     "price": 220
   },
   {
-    "id": "5",
-    "picture": "https://i.ibb.co/09YXCNm/heath2.jpg",
-    "title": "Nutritional Foods for Elderly",
-    "item": "Health",
-    "category_bg": "#0052ff33",
-    "card_bg": "#0052ff26",
-    "item_text_color": "#0052FF",
-    "title_text_color": "#0052FF",
-    "description": "Nutritional foods for the elderly are essential for promoting health and well-being in aging populations. These foods should be rich in essential nutrients like vitamins, minerals, and proteins, aiding in maintaining muscle mass, bone health, and cognitive function. Special attention to dietary fiber, calcium, vitamin D, and antioxidants can help prevent common age-related issues. Balanced, easy-to-digest meals tailored to individual needs can improve quality of life, support independence, and reduce the risk of chronic diseases, ensuring a healthier and more fulfilling elderly life.",
-    "price": 140
-  },
-  {
-    "id": "6",
-    "picture": "https://i.ibb.co/GCq1RF5/edu2.jpg",
-    "title": "Scholarships for Students",
-    "item": "Education",
-    "category_bg": "#ff444a33",
-    "card_bg": "#ff444a26",
-    "item_text_color": "#FF444A",
-    "title_text_color": "#FF444A",
-    "description": "Scholarships for students offer financial aid to help cover the costs of higher education, including tuition, books, and living expenses. These awards can be based on academic achievements, financial need, or specific criteria like field of study or ethnicity. Scholarships play a crucial role in making education more accessible, reducing the financial burden on students and their families. They encourage academic excellence, promote diversity, and enable individuals to pursue their educational aspirations, ultimately fostering personal and societal growth.",
-    "price": 285
+    "id": "8",
+    "picture": "https://i.ibb.co/vBntZxQ/food2.jpg",
+    "title": "Meals for Children in Need",
+    "item": "Food",
+    "category_bg": "#f8714733",
+    "card_bg": "#f8714726",
+    "item_text_color": "#F87147",
+    "title_text_color": "#F87147",
+    "description": "Represents a charitable effort aimed at providing nutritious and regular meals to underprivileged or food-insecure children. Such initiatives can take various forms, including school lunch programs, food banks, community kitchens, and nonprofit organizations. These efforts ensure that children have access to essential sustenance, promoting their physical and cognitive development while addressing hunger-related issues. By offering consistent, balanced meals, we support the well-being of vulnerable children and help them thrive, ultimately contributing to a healthier and more equitable society.",
+    "price": 315
   },
   {
     "id": "7",
@@ -84,16 +72,28 @@
     "price": 145
   },
   {
-    "id": "8",
-    "picture": "https://i.ibb.co/vBntZxQ/food2.jpg",
-    "title": "Meals for Children in Need",
-    "item": "Food",
-    "category_bg": "#f8714733",
-    "card_bg": "#f8714726",
-    "item_text_color": "#F87147",
-    "title_text_color": "#F87147",
-    "description": "Represents a charitable effort aimed at providing nutritious and regular meals to underprivileged or food-insecure children. Such initiatives can take various forms, including school lunch programs, food banks, community kitchens, and nonprofit organizations. These efforts ensure that children have access to essential sustenance, promoting their physical and cognitive development while addressing hunger-related issues. By offering consistent, balanced meals, we support the well-being of vulnerable children and help them thrive, ultimately contributing to a healthier and more equitable society.",
-    "price": 315
+    "id": "6",
+    "picture": "https://i.ibb.co/GCq1RF5/edu2.jpg",
+    "title": "Scholarships for Students",
+    "item": "Education",
+    "category_bg": "#ff444a33",
+    "card_bg": "#ff444a26",
+    "item_text_color": "#FF444A",
+    "title_text_color": "#FF444A",
+    "description": "Scholarships for students offer financial aid to help cover the costs of higher education, including tuition, books, and living expenses. These awards can be based on academic achievements, financial need, or specific criteria like field of study or ethnicity. Scholarships play a crucial role in making education more accessible, reducing the financial burden on students and their families. They encourage academic excellence, promote diversity, and enable individuals to pursue their educational aspirations, ultimately fostering personal and societal growth.",
+    "price": 285
+  },
+  {
+    "id": "5",
+    "picture": "https://i.ibb.co/09YXCNm/heath2.jpg",
+    "title": "Nutritional Foods for Elderly",
+    "item": "Health",
+    "category_bg": "#0052ff33",
+    "card_bg": "#0052ff26",
+    "item_text_color": "#0052FF",
+    "title_text_color": "#0052FF",
+    "description": "Nutritional foods for the elderly are essential for promoting health and well-being in aging populations. These foods should be rich in essential nutrients like vitamins, minerals, and proteins, aiding in maintaining muscle mass, bone health, and cognitive function. Special attention to dietary fiber, calcium, vitamin D, and antioxidants can help prevent common age-related issues. Balanced, easy-to-digest meals tailored to individual needs can improve quality of life, support independence, and reduce the risk of chronic diseases, ensuring a healthier and more fulfilling elderly life.",
+    "price": 140
   },
   {
     "id": "9",
